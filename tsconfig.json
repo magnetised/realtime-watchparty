@@ -1,0 +1,12 @@
+{
+	"extends": "../neon-pkgs/tsconfig.base.json",
+	"compilerOptions": {
+		"lib": ["ES2023", "DOM", "DOM.Iterable"],
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"noEmit": true,
+		"types": ["node", "vite/client"],
+		"jsx": "react-jsx"
+	},
+	"include": ["server", "scripts", "src", "vite.config.ts"]
+}
